@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/prospectprecise/';
+$config['base_url'] = 'https://68b9da462005ff725a3b3b7a--ornate-puppy-75fbe2.netlify.app/';
 
 /*
 |--------------------------------------------------------------------------
