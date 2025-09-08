@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prospect Precise | Home</title>    
+    <title>Prospect Precise | Home</title>
     <?php echo $links; ?>
     <?= $header ?>
 </head>
 
 <body>
-  
+    <canvas id="particles"></canvas>
     <section class="hero">
         <div class="media-right">
             <video autoplay muted loop playsinline>
@@ -19,7 +19,7 @@
             <div class="media-gradient"></div>
         </div>
 
-        <div class="container position-relative">
+        <div class="container position-relative hero-content">
             <div class="row">
                 <div class="col-lg-7 col-md-10">
                     <h5>DEMAND EXCELLENCE</h5>
@@ -30,19 +30,21 @@
                 </div>
             </div>
         </div>
+
         <div class="steps-wrapper">
             <div class="steps">
-                <div class="step"><a href="#">IDENTIFY THE RIGHT DEMAND STRATEGIES TO FUEL YOUR GROWTH</a><span
-                        class="arrow">→</span></div>
-                <div class="step"><a href="#">CRAFT HIGH-PERFORMANCE DEMAND PROGRAMS TO DELIVER RESULTS</a><span
-                        class="arrow">→</span></div>
-                <div class="step"><a href="#">OPTIMIZE YOUR INVESTMENT TO ACHIEVE YOUR DEMAND OUTCOMES</a><span
-                        class="arrow">→</span></div>
-                <div class="step"><a href="#">DRIVE YOUR DEMAND PERFORMANCE WITH OUR EXPERT INSIGHTS</a><span
-                        class="arrow">→</span></div>
+                <div class="step"><a href="#">IDENTIFY THE RIGHT DEMAND STRATEGIES TO FUEL YOUR GROWTH</a></div>
+                <div class="step"><a href="#">CRAFT HIGH-PERFORMANCE DEMAND PROGRAMS TO DELIVER RESULTS</a></div>
+                <div class="step"><a href="#">OPTIMIZE YOUR INVESTMENT TO ACHIEVE YOUR DEMAND OUTCOMES</a></div>
+                <div class="step"><a href="#">DRIVE YOUR DEMAND PERFORMANCE WITH OUR EXPERT INSIGHTS</a></div>
             </div>
         </div>
+
+        <!-- 🎉 Particles Overlay -->
+        <canvas id="particles"></canvas>
     </section>
+
+
     <section class="content-section">
         <div class="container mt-4">
             <div class="row justify-content-center">
@@ -360,121 +362,24 @@
         </div>
     </div>
 
-    <div class="container text-center py-5">
+    <div class="container-fluid text-center py-5">
         <h3 class="fw-semibold mb-4" style="color:#0072BC">
             Exceed your outcomes and empower your growth, no matter <br>
             where you are on your demand journey
         </h3>
 
-        <div class="row g-3 justify-content-center">
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/microsoft.jpg" class="img-fluid" alt="Microsoft">
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/google.jpg" class="img-fluid" alt="Google">
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/dell.jpg" class="img-fluid" alt="Dell">
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/ibm.webp" class="img-fluid" alt="IBM">
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/samsung.jpg" class="img-fluid" alt="Samsung">
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/hp.png" class="img-fluid" alt="HP">
-                </div>
-            </div>
-        </div>
+        <!-- Row 1 -->
+        <div class="scroll-row scroll-right-to-left" id="row1"></div>
 
-        <div class="row g-3 mt-2 justify-content-center">
 
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/ibm.webp" class="img-fluid" alt="IBM">
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/hp.png" class="img-fluid" alt="HP">
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/google.jpg" class="img-fluid" alt="Google">
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/microsoft.jpg" class="img-fluid" alt="Microsoft">
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/samsung.jpg" class="img-fluid" alt="Samsung">
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/dell.jpg" class="img-fluid" alt="Dell">
-                </div>
-            </div>
-
-        </div>
-
-        <div class="row g-3 mt-2 justify-content-center">
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/microsoft.jpg" class="img-fluid" alt="Microsoft">
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/google.jpg" class="img-fluid" alt="Google">
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/dell.jpg" class="img-fluid" alt="Dell">
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/ibm.webp" class="img-fluid" alt="IBM">
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/samsung.jpg" class="img-fluid" alt="Samsung">
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="logo-box">
-                    <img src="asset/images/hp.png" class="img-fluid" alt="HP">
-                </div>
-            </div>
-        </div>
-
+        <!-- Row 2 -->
+        <div class="scroll-row scroll-left-to-right" id="row2"></div>
 
 
 
     </div>
-
     <?= $footer ?>
-      <?php echo $script; ?>
+    <?php echo $script; ?>
 </body>
 
 </html>
