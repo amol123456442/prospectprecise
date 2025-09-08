@@ -9,6 +9,7 @@
     <?= $header ?>
 </head>
 
+
 <body>
     <canvas id="particles"></canvas>
     <section class="hero">
