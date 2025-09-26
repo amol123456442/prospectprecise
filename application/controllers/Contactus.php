@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class About extends CI_Controller {
+class Contactus extends CI_Controller {
 
     public function index()
     {
@@ -12,6 +12,6 @@ class About extends CI_Controller {
         $data['footer'] = $this->load->view('layout/footer', '', TRUE);
 
         // ✅ pass $data to about view
-        $this->load->view('about/bepartofus', $data);
+        $this->load->view('contactus', $data);
     }
 }

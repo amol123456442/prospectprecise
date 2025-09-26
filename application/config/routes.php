@@ -52,4 +52,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-$route['about'] = 'about';
+$route['about/bepartofus'] = 'about';
+$route['contactus'] = 'contactus';
+$route['about/meettheteam'] = 'meettheteam';
+$route['about/story'] = 'story';
+
+// services
+$route['services/cs'] = 'cs';
+$route['services/abm'] = 'abm';
+$route['services/intent_inteligence'] = 'intent_inteligence';
+$route['services/em'] = 'em';
+

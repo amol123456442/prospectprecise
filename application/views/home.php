@@ -45,7 +45,6 @@
         <canvas id="particles"></canvas>
     </section>
 
-
     <section class="content-section">
         <div class="container mt-4">
             <div class="row justify-content-center">

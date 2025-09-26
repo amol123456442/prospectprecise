@@ -5,7 +5,7 @@
                <!-- Logo & Contact -->
                <div class="col-lg-3 col-md-6 mb-5 position-relative">
                    <div class="footer-logo text-end">
-                       <img src="asset/images/Logo.png" alt="Logo">
+                       <img src="<?= base_url('asset/images/Logo.png'); ?>" alt="Logo">
                    </div>
                    <div class="mt-5 pt-5">
                        <p><strong>Email:</strong> info@prospectprecise.com</p>
